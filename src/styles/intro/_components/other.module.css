@@ -1,0 +1,14 @@
+.container{
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+}
+.img{
+  height: 5rem;
+  width: 5rem;
+}
+.name{
+  font-size: 250%;
+}

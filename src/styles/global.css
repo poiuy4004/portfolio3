@@ -1,0 +1,30 @@
+html{
+  background-color: rgb(234, 234, 234);
+  font-family: "Gugi";
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: black;
+  text-decoration: none;
+  font-family: "Gugi";
+}
+button{
+  font-family: "Gugi";
+  cursor: pointer;
+}
+@font-face {
+  font-family: "Gugi";
+  src: url("../../public/fonts/Gugi.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Round";
+  src: url("../../public/fonts/Round.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MarBoDan";
+  src: url("../../public/fonts/MarBoDan.ttf") format("truetype");
+}

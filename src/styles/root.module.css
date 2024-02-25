@@ -1,0 +1,19 @@
+.container{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.skipButton{
+  height: 5%;
+  padding: .4%;
+  position: absolute;
+  bottom: 1%;
+  right: 1.4%;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: rgb(200, 200, 100);
+}
+.skipButton:hover{
+  background-color: rgb(200, 200, 0);
+}

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "@/src/styles/global.css";
 
 export const metadata: Metadata = {
   title: "장용민",
