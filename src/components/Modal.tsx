@@ -1,6 +1,15 @@
 import styles from "@/src/styles/components/modal.module.css";
 
-function Modal({titleText, contentText, leftButtonText, rightButtonText, leftButtonFn, rightButtonFn}){
+type ModalType = {
+  titleText?: string
+  contentText?: string
+  leftButtonText?: string
+  rightButtonText?: string
+  leftButtonFn?: string
+  rightButtonFn?: any
+}
+
+function Modal({titleText, contentText, leftButtonText, rightButtonText, leftButtonFn, rightButtonFn}:ModalType){
   return(
     <article className={styles.container} onClick={()=>rightButtonFn(false)}>
       <section className={styles.box}>

@@ -7,11 +7,11 @@
   position: fixed;
   top: 7%;
   left: 7%;
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: 100;
 }
 .navBox button{
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: 100;
   border: none;
   background-color: transparent;

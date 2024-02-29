@@ -21,5 +21,6 @@
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "typescript": "^5"
-  }
+  },
+  "homepage": "https://poiuy4004.github.io/portfolio3/"
 }

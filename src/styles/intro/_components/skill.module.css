@@ -1,12 +1,12 @@
 .container{
   display: flex;
-  column-gap: 3rem;
+  column-gap: 3vw;
   align-items: center;
 }
 .img{
-  height: 5rem;
-  width: 5rem;
+  height: 3vw;
+  width: 3vw;
 }
 .name{
-  font-size: 250%;
+  font-size: 1vw;
 }

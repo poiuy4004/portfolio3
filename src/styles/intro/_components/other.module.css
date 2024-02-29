@@ -2,13 +2,13 @@
   width: min-content;
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  row-gap: 1vw;
   align-items: center;
 }
 .img{
-  height: 5rem;
-  width: 5rem;
+  height: 3vw;
+  width: 3vw;
 }
 .name{
-  font-size: 250%;
+  font-size: 1vw;
 }

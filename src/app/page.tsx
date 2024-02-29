@@ -16,7 +16,7 @@ export default function Home() {
     if(window.innerWidth<1025){
       router.push("/intro")
     }
-  },[])
+  })
   return (
     <main className={styles.container}>
       <Puzzle />

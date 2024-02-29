@@ -23,17 +23,17 @@
 }
 .title{
   text-align: center;
-  font-size: 5rem;
+  font-size: 5vw;
   font-weight: 700;
 }
 .content{
   text-align: center;
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: 500;
 }
 .buttonBox{
   display: flex;
-  column-gap: 1rem;
+  column-gap: 1vw;
   justify-content: space-between;
 }
 .button{
@@ -41,8 +41,8 @@
   padding: 5%;
   border-radius: 14px;
   color: white;
-  font-size: 3rem;
-  text-shadow: 0 0 .1rem rgb(0, 0, 0);
+  font-size: 3vw;
+  text-shadow: 0 0 .1vw rgb(0, 0, 0);
 }
 .leftButton{
   background-color: rgba(0, 0, 255, 0.3);

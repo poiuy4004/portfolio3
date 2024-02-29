@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-function opengraphImage(props: any){
+function OpengraphImage(props: any){
   return(
     <Head>
       <title>장용민</title>
@@ -39,13 +39,14 @@ function opengraphImage(props: any){
       <meta http-equiv="Copyright" content="장용민" />
       <meta http-equiv="Other Agent" content="YongMin" />
   
-      <script src="https://kit.fontawesome.com/16ac9ced80.js" crossOrigin="anonymous" />
+      {/* <script src="https://kit.fontawesome.com/16ac9ced80.js" crossOrigin="anonymous" /> */}
   
       <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
-      <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&amp;display=swap" rel="stylesheet" />
+      {/* <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&amp;display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&amp;display=swap" rel="stylesheet" />
       
-      <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" />
+      <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" /> */}
     </Head>
   )
 }
+export default OpengraphImage

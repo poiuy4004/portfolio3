@@ -11,20 +11,20 @@ function SkillPage(){
           <section className={styles.feBox}>
             <h2><div>Frontend</div><div></div></h2>
             <div className={styles.skillBox}>
-              {frontendSkills.map(skill=><Skill skill={skill} />)}
+              {frontendSkills.map((skill,idx)=><Skill skill={skill} key={idx} />)}
             </div>
           </section>
           <section className={styles.beBox}>
             <h2><div>Backend</div><div></div></h2>
             <div className={styles.skillBox}>
-              {backendSkills.map(skill=><Skill skill={skill} />)}
+              {backendSkills.map((skill,idx)=><Skill skill={skill} key={idx} />)}
             </div>
           </section>
         </div>
         <section className={styles.others}>
           <h2><div>Others</div><div></div></h2>
           <div className={`${styles.skillBox} ${styles.other}`}>
-            {otherSkills.map(skill=><Other skill={skill} />)}
+            {otherSkills.map((skill,idx)=><Other skill={skill} key={idx} />)}
           </div>
         </section>
       </section>
