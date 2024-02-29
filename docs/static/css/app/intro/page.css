@@ -1,0 +1,103 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/styles/intro/intro.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.intro_container__mw_vS{
+  padding: 1% 20%;
+  display: flex;
+  flex-direction: column;
+}
+.intro_navBox__dITkI{
+  position: fixed;
+  top: 7%;
+  left: 7%;
+  font-size: 3vw;
+  font-weight: 100;
+}
+.intro_navBox__dITkI button{
+  font-size: 3vw;
+  font-weight: 100;
+  border: none;
+  background-color: transparent;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/styles/intro/_container/skillPage.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.skillPage_container__HYZIe{
+  padding: 1%;
+}
+.skillPage_box__syXU8{
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5vw;
+}
+.skillPage_box__syXU8 h2{
+  width: max-content;
+  font-size: 300%;
+}
+.skillPage_box__syXU8 h2>:last-child{
+  border: solid .3vw rgb(140, 140, 70);
+  border-bottom-right-radius: 999px;
+}
+.skillPage_devSkillBox__hFOQY{
+  display: flex;
+  column-gap: 3vw;
+}
+.skillPage_feBox__9YB0m,.skillPage_beBox__0It_J,.skillPage_others__R7phh{
+  flex: 1 1;
+  padding: 2%;
+  border-radius: 14px;
+  background-color: white;
+}
+.skillPage_skillBox___xCW_{
+  padding: 7% 0 7% 10%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vw;
+}
+.skillPage_other__WrZDL{
+  padding: 3% 3% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  column-gap: 5vw;
+  flex-wrap: wrap;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/styles/intro/_components/skill.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.skill_container__P8KUF{
+  display: flex;
+  column-gap: 3vw;
+  align-items: center;
+}
+.skill_img__prvaU{
+  height: 3vw;
+  width: 3vw;
+}
+.skill_name__4MZhF{
+  font-size: 1vw;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/styles/intro/_components/other.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.other_container__5UlBP{
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vw;
+  align-items: center;
+}
+.other_img__fZE6p{
+  height: 3vw;
+  width: 3vw;
+}
+.other_name__Uy2mh{
+  font-size: 1vw;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/styles/intro/_container/projectPage.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.projectPage_container__zctHv{
+  height: 100vh;;
+}
